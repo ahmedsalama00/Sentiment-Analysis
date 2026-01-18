@@ -13,7 +13,6 @@ A complete Machine Learning project for analyzing sentiment in tweets using Natu
 
 - [Overview](#overview)
 - [Dataset](#dataset)
-- [Project Structure](#project-structure)
 - [Models](#models)
 - [Results](#results)
 - [Installation](#installation)
@@ -55,25 +54,6 @@ The project includes:
 - Average tweet length: 124 characters
 - Shortest tweet: 1 character
 - Longest tweet: 274 characters
-
----
-
-## 📁 Project Structure
-
-```
-twitter-sentiment-analysis/
-│
-├── app.py                          # Streamlit web application
-├── twitter_sentiment_analysis.py   # Main training script
-├── requirements.txt                # Python dependencies
-├── README.md                       # This file
-│
-├── outputs/
-│   ├── sentiment_distribution.png      # Data distribution plot
-│   ├── cm_logistic_regression.png      # Confusion matrix - LR
-│   ├── cm_random_forest.png            # Confusion matrix - RF
-│   └── models_comparison.png           # Models comparison chart
-```
 
 ---
 
